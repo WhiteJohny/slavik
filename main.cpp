@@ -18,16 +18,16 @@ int main()
     cin >> N;
     
     int A[N];
-    int sum;
-    int k = 1000000000;
+    int sum = 0;
+    int min = 1000000000;
     int j = 0;
     
     for (int i = 0; i < N; i++)
     {   
         cin >> A[i];
-        if (k > A[i])
+        if (min > A[i])
         {
-            k = A[i];
+            min = A[i];
             j = i;
         }
         sum += A[i];
