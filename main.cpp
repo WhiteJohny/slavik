@@ -29,7 +29,6 @@ int main()
         {
             k = A[i];
             j = i;
-            cout << k << endl;
         }
         sum += A[i];
     }
